@@ -15,5 +15,11 @@ FiveM Coords Query [FiveM 查詢座標]
 ##### I am not a very good at writing code, this is used for Taiwan RP server, but because the server is about to shut down, it is expected  to be closed on March 27, 2020
 ##### It is not used, so it is made public for those who need it.
 
+
 # 截圖[Screenshot]
 ![img-1](https://raw.githubusercontent.com/murayuki/getcoords/master/1.png)
+
+
+### Note
+###### 但我不會再更新它，因為我已經幾乎想要放棄了
+###### But I wo n’t update it anymore, because I almost want to give up
