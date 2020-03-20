@@ -29,11 +29,11 @@ RegisterNetEvent("GetGoords:ControlSwitch")
 AddEventHandler("GetGoords:ControlSwitch", function()
 	if ControlSwitch then
 		ControlSwitch = false
-		Notification('error', '關閉 [~]按鍵 開關座標視窗')
+		Notification('error', 'Close [~]Key Operation')
 		PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", false)
 	else
 		ControlSwitch = true
-		Notification('success', '開啟 [~]按鍵 開關座標視窗')
+		Notification('success', 'Enable [~]Key Operation')
 		PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", false)
 	end
 
@@ -43,7 +43,7 @@ AddEventHandler("GetGoords:ControlSwitch", function()
 			if IsControlJustPressed(0, Keys["~"]) and ControlSwitchTime and ControlSwitch then -- "~"
 				PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", false)
 				TriggerServerEvent('GetGoords:CheckDisplayPermission')
-				Notification('success', '開啟 座標視窗')
+				Notification('success', 'Open CoordsWindows')
 				
 				--- Control Timer
 				ControlSwitchTime = false
@@ -126,7 +126,7 @@ RegisterNUICallback("switch", function(data)
 	elseif TypeCoords == 2 then
 		TypeCoords = 0
 	end
-	Notification("success", data.msg .. " | 格式: " .. Nbr .. " |")
+	Notification("success", data.msg .. " | Format: " .. Nbr .. " |")
 end)
 
 function Notification(type, msg)
