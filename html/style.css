@@ -1,0 +1,152 @@
+body {
+    background: none !important;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+
+
+#container {
+	width: 360px;
+	height: 200px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: -30;
+	right: 0;
+	padding: 10px;
+	top: 350px;
+	box-shadow: 0px 0px 50px 0px #000;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	opacity: 0.9;
+	border-radius: 7px;
+	box-shadow: 5px 20px 20px rgba(15, 15, 15, 0.73);
+}
+
+.switch {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #0164a9;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	border:0px solid #016497;
+	border-width:0px 2px 4px 0px;
+	font-weight:bold;
+	margin-left: 5%;
+}
+
+.close {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #cf1007;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	border:0px solid #9f1007;
+	border-width:0px 2px 4px 0px;
+	font-weight:bold;
+	margin-left: 5%;
+}
+
+.switch span,
+.close span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.switch span:after,
+.close span:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.switch:hover span,
+.close:hover span {
+  padding-right: 25px;
+}
+
+.switch:hover span:after,
+.close:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.switch:active,
+.close:hover {
+	position:relative;
+	top:3px
+}
+
+textarea[type=input],
+textarea[type=Heading] {
+	width: 90%;
+	padding: 12px 10px;
+	margin-top: 5px;
+	transition: all 0.2s ease-in-out;
+	box-sizing: border-box;
+	border-radius: 7px;
+	border: 2px solid #ccc;
+	background-color: #f8f8f8;
+	color: #696969;
+	font-size: 14px;
+	resize: none;
+	margin-left: 5%;
+	font-weight:bold;
+	text-align: center;
+}
+textarea[type=input]:active, 
+textarea[type=input]:hover {
+	color: rgb(0, 0, 0);
+}
+
+.text {
+	font-weight:bold;
+	text-align: center;
+	color: #696969;
+}
+
+#Notice {
+	height: 20px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+	margin-left: 16%;
+	margin-top: 40%;
+	text-align: center;
+}
+
+.alert-success{
+	background: rgb(45, 49, 51, 0.5);
+	color: #dcdedf;
+}
+.alert-exit {
+	background: rgb(201, 70, 73, 0.5);
+	color: #dcdedf;
+}
+
+.alert-error {
+	background: rgba(248, 51, 51, 0.5);
+	color: #f8f9fb;
+}
