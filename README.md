@@ -12,7 +12,7 @@ FiveM Coords Query [FiveM 查詢座標]
 ### English:
 
 ##### I refer to someone else's code myself Write a little code People who need it can take it, but do n’t use it for commercial content.
-##### I am not a very good at writing code, this is used for Taiwan RP server, but because the server is about to shut down, it is expected ##### to be closed on March 27, 2020
+##### I am not a very good at writing code, this is used for Taiwan RP server, but because the server is about to shut down, it is expected  to be closed on March 27, 2020
 ##### It is not used, so it is made public for those who need it.
 
 # 截圖[Screenshot]
