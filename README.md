@@ -28,3 +28,5 @@ It is not used, so it is made public for those who need it.
 但我不會再更新它，因為我已經幾乎想要放棄了
 But I wo n’t update it anymore, because I almost want to give up
 ```
+# FiveM Forum
+https://forum.cfx.re/t/release-devtools-getcoords/1074960
