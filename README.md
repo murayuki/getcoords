@@ -17,8 +17,9 @@ FiveM Coords Query [FiveM 查詢座標]
 
 
 # 截圖[Screenshot]
-![img-1](https://raw.githubusercontent.com/murayuki/getcoords/master/1.png)
-
+![img-1](https://raw.githubusercontent.com/murayuki/getcoords/master/Screenshot/1.png)
+![img-2](https://raw.githubusercontent.com/murayuki/getcoords/master/Screenshot/2.png)
+![img-3](https://raw.githubusercontent.com/murayuki/getcoords/master/Screenshot/3.png)
 
 ### Note
 ###### 但我不會再更新它，因為我已經幾乎想要放棄了
