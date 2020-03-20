@@ -24,5 +24,7 @@ It is not used, so it is made public for those who need it.
 ![img-3](https://raw.githubusercontent.com/murayuki/getcoords/master/Screenshot/3.png)
 
 ### Note
-###### 但我不會再更新它，因為我已經幾乎想要放棄了
-###### But I wo n’t update it anymore, because I almost want to give up
+```
+但我不會再更新它，因為我已經幾乎想要放棄了
+But I wo n’t update it anymore, because I almost want to give up
+```
